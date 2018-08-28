@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Players",
+	"description": "This is a repository of players APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/players.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://players.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Play",
+			"x-api-slug": "google-play",
+			"description": "The Google Play Developer API allows you to perform a number of publishing and app-management tasks. It includes two components: The Subscriptions and In-App Purchases API lets you manage in-app purchases and subscriptions. The Publishing API lets you upload and publish apps, and perform other publishing-related tasks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png",
+			"humanURL": "https://play.google.com/store",
+			"baseURL": "https:///",
+			"tags": "Players",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/google-play/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "api.video",
+			"x-api-slug": "api-video",
+			"description": "api.video is a scalable webservice able to encode on the go to facilitate immediate playback, enhancing viewer experiences across multiple devices and platforms. Start within minutes with a well-documented API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg",
+			"humanURL": "https://api.video",
+			"baseURL": "https://ws.api.video//",
+			"tags": "Players",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/api-video/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Players",
+	"include": [
+		{
+			"name": "Google Play",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/google-play/apis.yaml"
+		},
+		{
+			"name": "api.video",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/api-video/apis.yaml"
+		}
+	]
+}

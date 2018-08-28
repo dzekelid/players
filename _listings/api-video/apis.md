@@ -8,11 +8,62 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-
 x-kinRank: "7"
 x-alexaRank: "3033257"
 tags: Players
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/api-video/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: api.video - Parameters Players
+  x-api-slug: playersid-parameters
+  description: Parameters players.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/api-video/playersid-parameters-openapi.md
+- name: api.video - Patch Players
+  x-api-slug: playersid-patch
+  description: It may take up to 10min before the new player configuration is available
+    from our CDN.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/api-video/playersid-patch-openapi.md
+- name: api.video - Get Players
+  x-api-slug: playersid-get
+  description: Get players.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/api-video/playersid-get-openapi.md
+- name: api.video - Get Players
+  x-api-slug: players-get
+  description: Get players.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/api-video/players-get-openapi.md
+- name: api.video - Post Players
+  x-api-slug: players-post
+  description: Post players.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg
+  humanURL: https://api.video
+  baseURL: https://ws.api.video//
+  tags: Videos, Videos, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/players/master/_listings/api-video/players-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://api.video.api.gallery.streamdata.io
